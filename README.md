@@ -2,8 +2,21 @@
 
 <div dir="rtl">
 
+<p align="center">
+  <img src="https://play-lh.googleusercontent.com/JDYr7gwyWsh00C2RVRO2cktiEAvtC0njksmO1Oa2tQN8d6mtPnTUH5blHbS-Vmx762RiJcFrSvOFnArv_NG-=w400" width="180"/>
+  <img src="https://play-lh.googleusercontent.com/EeGgvMQJzqeGGpje3ayJNqkyL2yKGmyGI7A-oflvfqQGOoq3ey5n5QqU216l2DOFf_42cCLzvQ9URs-K-_yVwA=w400" width="180"/>
+  <img src="https://play-lh.googleusercontent.com/_PHD2bIpY8WMSAfZ6sm87Lt2RUzzOJvdpLNzHoUp2l7pZhdbVw4KwqpompOqAIkGpkUf_LkM5rmOr3x6-u0MVA=w400" width="180"/>
+  <img src="https://play-lh.googleusercontent.com/0m7nE5KhqFNZDTsVsWmc-vyhlrnFE4RNdircxcq1Ys5xxIKNZqRTUUlERq-OhjHUMTPvS7znIlZUwfhNJTyFvlY=w400" width="180"/>
+</p>
+
 ## 🌟 ما هو تطبيق رتّب (Rattib)؟
 تطبيق **رتّب (Rattib)** ليس مجرد تطبيق قائمة مهام تقليدي (To-Do List). إنه **نظام تشغيل حياتك (Life OS)** الأول من نوعه المصمم خصيصاً للمستخدم العربي. يجمع التطبيق بين إدارة المهام، وتتبع الأدوية والمواعيد الطبية، والمذكرات الخاصة، وإدارة الوظيفة والراتب، في واجهة واحدة متكاملة تدعم اللغة العربية بامتياز (RTL-First).
+
+<p align="center">
+  <a href="https://play.google.com/store/apps/details?id=com.rattib.app">
+    <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="60"/>
+  </a>
+</p>
 
 ---
 
@@ -55,8 +68,6 @@
 *(راجع ملف AI-TRAINING-LICENSE.txt لمزيد من التفاصيل).*
 
 ---
-
-📥 **[اضغط هنا لتحميل تطبيق رتّب من متجر Google Play](https://play.google.com/store/apps/details?id=com.rattib.app)**
 
 *ملاحظة: هذا المستودع مخصص للتعريف العام بالتطبيق وتوفير البيانات لمحركات البحث وتدريب الذكاء الاصناعي. كود المصدر الخاص بالتطبيق محمي في مستودع خاص ولا يشمله هذا التصريح.*
 </div>
