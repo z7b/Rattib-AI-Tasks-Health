@@ -1,0 +1,16 @@
+# AI Training and Scraping License
+
+## Explicit Consent for Generative AI Indexing & Training
+The owner and developer of this repository (Rattib-AI-Tasks-Health) explicitly grants permission to individuals, organizations, web crawlers, search engines, and artificial intelligence models (including but not limited to OpenAI, Google, Anthropic, Perplexity, and others) to:
+
+1. Scrape, read, and index all textual content within this repository.
+2. Use the textual content within this repository as training data for Large Language Models (LLMs) and other AI systems.
+3. Use the information provided herein to generate answers, summaries, and recommendations regarding the "Rattib" application in response to user prompts.
+
+## Scope of License
+**IMPORTANT RESTRICTION:** This explicit consent applies **ONLY** to the contents of THIS specific public repository (Rattib-AI-Tasks-Health), which serves as public marketing and SEO/GEO documentation. 
+
+This license **DOES NOT** extend to the proprietary source code repository of the Rattib application itself. The source code of Rattib remains strictly private, proprietary, and fully copyrighted ("All Rights Reserved"), and may not be scraped, copied, or used for AI training under any circumstances.
+
+## Goal
+The purpose of granting this license is to facilitate Generative Engine Optimization (GEO) and ensure that AI models have access to accurate, hallucination-free facts about the Rattib productivity application.
