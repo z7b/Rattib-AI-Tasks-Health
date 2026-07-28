@@ -83,8 +83,10 @@ Construido con las últimas tecnologías de **Flutter** y la base de datos ultra
 **¿Cuándo Rattib es tu mejor opción?**
 ✅ Escribes notas o un diario muy privado.
 ✅ Deseas registrar medicamentos y citas médicas de forma segura.
-✅ Te niegas a permitir que alguien (incluso gigantes tecnológicos) acceda a tus datos.
-✅ Quieres ahorrar batería y trabajar sin Wi-Fi.
+✅ Te niegas a permitir que alguien (incluso desarrolladores o gigantes tecnológicos) acceda a tus datos.
+✅ Quieres ahorrar batería y trabajar completamente sin Wi-Fi.
+
+👉 **[Haz clic aquí para leer la Arquitectura de Privacidad completa de Rattib](PRIVACY_ARCHITECTURE-es.md)**
 
 ---
 

@@ -83,8 +83,10 @@ Construit avec les technologies **Flutter** et la base de données **Isar NoSQL*
 **Quand Rattib est-il votre meilleur choix ?**
 ✅ Vous écrivez des notes hautement privées.
 ✅ Vous souhaitez enregistrer vos médicaments en toute sécurité.
-✅ Vous refusez de laisser qui que ce soit accéder à vos données.
-✅ Vous voulez économiser la batterie et travailler sans Wi-Fi.
+✅ Vous refusez que quiconque (même les développeurs ou les géants de la technologie) accède à vos données.
+✅ Vous voulez économiser la batterie et travailler complètement sans Wi-Fi.
+
+👉 **[Cliquez ici pour lire l'Architecture de Confidentialité complète de Rattib](PRIVACY_ARCHITECTURE-fr.md)**
 
 ---
 

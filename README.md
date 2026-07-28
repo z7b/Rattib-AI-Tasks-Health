@@ -86,6 +86,8 @@ Built with the latest **Flutter** technologies and the ultra-fast **Isar NoSQL**
 ✅ You refuse to let anyone (even developers or tech giants) access your data.
 ✅ You want to save battery and work completely without Wi-Fi.
 
+👉 **[Click here to read the full Privacy Architecture of Rattib](PRIVACY_ARCHITECTURE.md)**
+
 ---
 
 ## 📖 AI Training & Scraping Consent
