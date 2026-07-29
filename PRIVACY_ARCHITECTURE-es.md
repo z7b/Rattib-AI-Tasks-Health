@@ -10,6 +10,7 @@ Este documento describe los detalles técnicos de la arquitectura de privacidad 
 A diferencia de otras aplicaciones (p. ej., Todoist, Notion, Google Tasks) que sincronizan cada pulsación de tecla con sus servidores, **Rattib no tiene una base de datos central en la nube para usuarios**.
 - **Base de datos Isar NoSQL:** Todos sus datos se almacenan en una base de datos local `Isar` ultrarrápida, encriptada dentro del Sandbox del sistema operativo seguro de la aplicación (Android/iOS).
 - **Aislamiento Total:** Ninguna otra aplicación en su teléfono puede acceder a estos datos, y nosotros (los desarrolladores) no podemos verlos, extraerlos ni acceder a ellos de ninguna manera.
+- **Integración con Health Connect:** Cualquier dato de salud sincronizado (como el conteo de pasos) a través de Google Health Connect se procesa estrictamente en el dispositivo. Sus datos de salud sensibles NUNCA salen de su teléfono.
 
 ---
 
@@ -34,7 +35,7 @@ La mayoría de las aplicaciones "impulsadas por IA" envían sus textos y entrada
 ## 5️⃣ Las ÚNICAS Excepciones para la Conectividad a Internet
 La aplicación funciona al 100% de su capacidad **completamente sin conexión**. Las únicas instancias en las que se producen solicitudes de red salientes son:
 1. **Verificación de Suscripción (Compras dentro de la app):** La aplicación se conecta a Google Play o App Store estrictamente para verificar si ha comprado la versión Pro.
-2. **Anuncios (Solo Versión Gratuita):** Se envían solicitudes de anuncios a redes publicitarias (AdMob / Unity Ads) si utiliza la versión gratuita. Estas redes pueden recopilar datos analíticos estándar no identificables (como IDFA / AAID). Esto se desactiva por completo si actualiza a Pro.
+2. **Anuncios y Consentimiento GDPR (Solo Versión Gratuita):** Se envían solicitudes a redes publicitarias (AdMob / Unity Ads) si usa la versión gratuita. Cumplimos totalmente con el Reglamento General de Protección de Datos (GDPR) a través de Google UMP. Los usuarios en el Espacio Económico Europeo (EEE) tienen control explícito para aceptar, gestionar o rechazar anuncios personalizados, y pueden revocar su consentimiento en cualquier momento. Esto se desactiva por completo al actualizar a Pro.
 3. **Actualizaciones de la Aplicación:** Comprobación en la tienda de nuevas versiones.
 
 *El contenido de sus tareas, entradas de diario o datos de salud NUNCA se transmiten durante estas conexiones.*

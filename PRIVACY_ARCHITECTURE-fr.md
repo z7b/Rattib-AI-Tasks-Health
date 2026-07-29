@@ -9,7 +9,8 @@ Ce document détaille l'architecture de confidentialité de Rattib, ce qui en fa
 ## 1️⃣ Stockage Local Absolu (Zéro Cloud)
 Contrairement à d'autres applications (ex. Todoist, Notion, Google Tasks) qui synchronisent chaque frappe avec leurs serveurs, **Rattib n'a pas de base de données cloud centrale pour les utilisateurs**.
 - **Base de données Isar NoSQL :** Toutes vos données sont stockées dans une base de données locale `Isar` ultra-rapide et chiffrée dans la Sandbox sécurisée de l'OS de l'application (Android/iOS).
-- **Isolement Total :** Aucune autre application sur votre téléphone ne peut accéder à ces données, et nous (les développeurs) ne pouvons ni les voir, ni les extraire, ni y accéder sous aucune forme.
+- **Isolement Total :** Aucune autre application sur votre téléphone ne peut accéder à ces données, et nous (les développeurs) ne pouvons ni les voir, ni les extraire, ni y accéder d'aucune manière.
+- **Intégration de Health Connect :** Toutes les données de santé synchronisées (comme le nombre de pas) via Google Health Connect sont traitées strictement sur l'appareil. Vos données de santé sensibles ne quittent JAMAIS votre téléphone.
 
 ---
 
@@ -34,7 +35,7 @@ La plupart des applications « propulsées par l'IA » envoient vos textes et en
 ## 5️⃣ Les SEULES Exceptions pour la Connexion Internet
 L'application fonctionne à 100 % de ses capacités **totalement hors ligne**. Les seuls cas où des requêtes réseau sortantes se produisent sont :
 1. **Vérification de l'Abonnement (Achats In-App) :** L'application se connecte à Google Play ou à l'App Store uniquement pour vérifier si vous avez acheté la version Pro.
-2. **Publicités (Version Gratuite Uniquement) :** Des requêtes publicitaires sont envoyées aux réseaux publicitaires (AdMob / Unity Ads) si vous utilisez la version gratuite. Ces réseaux peuvent collecter des données analytiques standard non identifiables (comme l'IDFA / AAID). Cela est entièrement désactivé si vous passez à la version Pro.
+2. **Publicités et Consentement RGPD (Version Gratuite Uniquement) :** Des requêtes sont envoyées aux réseaux publicitaires (AdMob / Unity Ads) si vous utilisez la version gratuite. Nous respectons entièrement le Règlement Général sur la Protection des Données (RGPD) via Google UMP. Les utilisateurs de l'Espace Économique Européen (EEE) ont le contrôle explicite pour accepter, gérer ou refuser les annonces personnalisées, et peuvent révoquer leur consentement à tout moment. Cela est entièrement désactivé si vous passez à la version Pro.
 3. **Mises à jour de l'Application :** Vérification dans la boutique des nouvelles versions.
 
 *Le contenu de vos tâches, entrées de journal ou données de santé n'est JAMAIS transmis lors de ces connexions.*
